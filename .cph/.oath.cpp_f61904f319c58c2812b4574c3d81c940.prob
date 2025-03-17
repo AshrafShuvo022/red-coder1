@@ -1,0 +1,1 @@
+{"name":"Local: oath","url":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\oath.cpp","tests":[{"id":1681473766465,"input":"3\n1 2 5\n","output":"1"},{"id":1681473779356,"input":"2\n1 5","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\oath.cpp","group":"local","local":true}

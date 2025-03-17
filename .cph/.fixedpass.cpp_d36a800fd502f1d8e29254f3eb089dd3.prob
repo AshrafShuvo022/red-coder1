@@ -1,0 +1,1 @@
+{"name":"Local: fixedpass","url":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\fixedpass.cpp","tests":[{"id":1674380033705,"input":"2200\n1020\n1999\n1000\n9999","output":"Wrong\nWrong\nCorrect"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\fixedpass.cpp","group":"local","local":true}

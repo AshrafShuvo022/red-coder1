@@ -1,0 +1,1 @@
+{"name":"Local: arpa","url":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\arpa.cpp","tests":[{"id":1681873177372,"input":"2\n","output":"4"},{"id":1681873700263,"input":"1","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\arpa.cpp","group":"local","local":true}

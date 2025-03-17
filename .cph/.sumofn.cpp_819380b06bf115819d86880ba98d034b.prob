@@ -1,0 +1,1 @@
+{"name":"Local: sumofn","url":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\sumofn.cpp","tests":[{"id":1670273359513,"input":"3\n","output":"6\n"},{"id":1670273375766,"input":"10","output":"55"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\sumofn.cpp","group":"local","local":true}

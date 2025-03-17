@@ -1,0 +1,1 @@
+{"name":"Local: regex","url":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\regex.cpp","tests":[{"id":1681862727008,"input":"WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB","output":"WE ARE THE CHAMPIONS MY FRIEND"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\regex.cpp","group":"local","local":true}
