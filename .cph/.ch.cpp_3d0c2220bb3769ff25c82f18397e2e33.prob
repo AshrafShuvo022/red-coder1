@@ -1,0 +1,1 @@
+{"name":"Local: ch","url":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\ch.cpp","tests":[{"id":1743636454015,"input":"27\n","output":"22\n"},{"id":1743636467322,"input":"4545\n","output":"4444\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\ch.cpp","group":"local","local":true}
