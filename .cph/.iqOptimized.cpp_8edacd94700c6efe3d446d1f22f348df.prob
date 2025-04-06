@@ -1,0 +1,1 @@
+{"name":"Local: iqOptimized","url":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\iqOptimized.cpp","tests":[{"id":1743887746022,"input":"####\n.#..\n####\n....\n","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\fmrah\\OneDrive\\Documents\\red coder\\iqOptimized.cpp","group":"local","local":true}
