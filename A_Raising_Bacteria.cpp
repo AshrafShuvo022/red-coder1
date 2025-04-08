@@ -7,7 +7,17 @@ using ll = long long;
 
 void solve()
 {
-  
+ll input , sum = 0;
+cin >> input ;
+while (input)
+{
+  if(input & 1){
+    sum++ ;
+  }
+  input >>= 1 ;
+}
+cout << sum << endl ;
+
 }
 int main()
 {
@@ -15,7 +25,7 @@ int main()
   cin.tie(0);
   cout.tie(0);
   int testCase = 1;
-  //cin >> testCase;
+  // cin >> testCase;
   while (testCase--)
   {
     solve();

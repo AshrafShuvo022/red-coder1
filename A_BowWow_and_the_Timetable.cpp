@@ -7,7 +7,18 @@ using ll = long long;
 
 void solve()
 {
-  
+  string binary;
+  cin >> binary;
+  ll dec = stoi(binary, nullptr, 2);
+  cout << dec << endl ;
+  int count = 0;
+  int total = 1;
+  while (total < dec)
+  {
+    total = total * 4;
+    count++;
+  }
+  cout << count << endl;
 }
 int main()
 {
@@ -15,7 +26,7 @@ int main()
   cin.tie(0);
   cout.tie(0);
   int testCase = 1;
-  //cin >> testCase;
+  // cin >> testCase;
   while (testCase--)
   {
     solve();
