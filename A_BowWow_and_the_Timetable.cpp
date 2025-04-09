@@ -7,18 +7,37 @@ using ll = long long;
 
 void solve()
 {
-  string binary;
-  cin >> binary;
-  ll dec = stoi(binary, nullptr, 2);
-  cout << dec << endl ;
-  int count = 0;
-  int total = 1;
-  while (total < dec)
+  string binaryNum;
+  cin >> binaryNum;
+  ll count = 0;
+  for (int i = 0; i < binaryNum.length(); i++)
   {
-    total = total * 4;
-    count++;
+    if (binaryNum[i] == '1')
+    {
+      count++;
+    }
+    if (count > 1)
+    {
+      break;
+    }
   }
-  cout << count << endl;
+  //cout << count << endl ;
+  //cout << binaryNum.length() << endl ; 
+  if (count == 1)
+  {
+    cout << (binaryNum.length()) / 2 << endl;
+    return;
+  }
+  else if (binaryNum == "0" )
+  {
+    cout << 0 << endl;
+    return ;
+  }
+  else
+  {
+    cout << (binaryNum.length() +1) / 2 << endl;
+    return ;
+  }
 }
 int main()
 {

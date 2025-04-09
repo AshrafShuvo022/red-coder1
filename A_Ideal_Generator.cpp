@@ -7,8 +7,7 @@ using ll = long long;
 
 void solve()
 {
-  int x = -29 ;
-  cout << x/2 << endl ;
+  
 }
 int main()
 {
