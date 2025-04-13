@@ -7,7 +7,23 @@ using ll = long long;
 
 void solve()
 {
- ll   n , k ;
+  int n;
+  cin>>n;
+  int x;
+  vector<int> code(2*n+1);
+  vector<bool> visited(2*n+1);
+  for(int i=1;i<=n;i++){
+      for(int j=1;j<=n;j++){
+          cin>>x;
+          code[i+j]=x;
+          visited[x]=1;
+      }
+  }
+  for(int i=1;i<=2*n;i++){
+      if(!visited[i]) code[1]=i;
+  }
+  for(int i=1;i<=2*n;i++) cout<<code[i]<<" ";
+  cout<<endl;
 }
 int main()
 {

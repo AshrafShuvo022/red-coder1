@@ -7,7 +7,17 @@ using ll = long long;
 
 void solve()
 {
- ll   n , k ;
+  ll n, m, l, r;
+
+  cin >> n >> m >> l >> r;
+  vector<ll> houses(n);
+  //houses[0] = l;
+  ll temp1 = -l , temp2 = r ;
+  ll reserve  = m ;
+  if( reserve > temp1){
+    reserve = temp1 ;
+  } 
+ cout << -reserve << " " << m - reserve << endl ;  
 }
 int main()
 {

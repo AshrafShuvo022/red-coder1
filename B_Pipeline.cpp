@@ -7,7 +7,7 @@ using ll = long long;
 
 void solve()
 {
- ll   n , k ;
+ ll ;
 }
 int main()
 {
