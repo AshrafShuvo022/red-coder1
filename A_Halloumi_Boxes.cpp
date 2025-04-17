@@ -1,15 +1,43 @@
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
-#define YES cout << "YES" << endl;
-#define NO cout << "NO" << endl;
+#define YES cout << "YES" 
+#define NO cout << "NO" 
 #define pb push_back
 
 void solve()
 {
- ll   n , a , b ;
- cin >> n >> a >> b ;
- cout << n-a << endl ;
+  ll n, k, x, temp;
+  cin >> n >> k;
+  bool flag = true;
+  for (ll i = 0; i < n; i++)
+  {
+    if (i == 0)
+    {
+      cin >> x;
+      temp = x;
+    }
+    else
+    {
+      cin >> x;
+      if (x < temp)
+      {
+        flag = false;
+      }
+      temp = x;
+    }
+  }
+  if (k > 1 )
+  {
+    YES << endl ;
+  }else
+  {
+    if(flag == true){
+      YES << endl ; 
+       }else{
+         NO << endl ;
+       }
+  }
 }
 int main()
 {
