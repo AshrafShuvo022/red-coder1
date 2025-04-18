@@ -13,11 +13,20 @@ int main()
   // Pair is a part of the utility library in C++.
   // It allows us to store two heterogeneous objects as a single unit.
   // Useful when we want to associate one value with another.
+
+  //##   // Common Use Cases:
+  // - Storing coordinates (x, y)
+  // - Associating IDs with data (like student ID and info)
+  // - Sorting complex objects using custom order (e.g., sort by value, then index)
+  // - As elements in maps, sets, and vectors
+
   
   // pair<data_type, data_type>
   pair<int, int> firstPair = {2, 3};
   // Accessing elements of the pair:
   cout << firstPair.first << " and " << firstPair.second << endl; // Output: 2 and 3
+
+
 
   // Nested Pair Example:
   // Let's say in a school, each student has a unique ID and we want to store their name and phone number.
