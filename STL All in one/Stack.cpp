@@ -10,6 +10,10 @@ int main()
   ios::sync_with_stdio(false);
   cin.tie(0);
   cout.tie(0);
+  
+  //for both stack and queue in C++, all their standard operations are O(1) (constant time)
+  
+  
   // Stack is basiccaly follow LIFO - last in first out . 
 
   //## Declaration 
